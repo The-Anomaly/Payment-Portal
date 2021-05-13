@@ -1,0 +1,237 @@
+.p-container {
+    padding: 7rem 1rem 3rem;
+    background: linear-gradient( 
+164deg
+ , rgba(242, 201, 76, 0.2) 50%, rgba(242, 153, 74, 0.2) 50%, rgba(255, 255, 256, 0.2) 50%);
+}
+.p-form-sec {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.p-form-ttl {
+    font-size: 1.45rem;
+    color: #4E598C;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+.p-form-head {
+    display: flex;
+    justify-content: space-between;
+    color: #bdbdbd;
+    font-family: 'Product Sans Medium Regular';
+    margin: 2.5rem 0 3rem;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1rem;
+}
+.p-form-head-txt {
+    color: #F2994A;
+    font-family: 'Product Sans Bold';
+    position: relative;
+}
+.p-form-head-txt-opt::after {
+    content: "";
+    border: 4px solid #F2994A;
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -1.25rem;
+}
+.p-form-head-txt-start::after {
+    width: 120%;
+}
+.p-form-head-txt-mid::after {
+    width: 150%;
+    margin-left: -25%;
+}
+.p-form-head-txt-end::after {
+    width: 130%;
+    right: -1px;
+}
+.p-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.p-form-list {
+    display: flex;
+    flex-direction: column;
+}
+.p-form-list2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.p-form-list2-1 {
+    width: 60%;
+}
+.p-form-list2-2 {
+    width: 40%;
+}
+.p-form-list-label {
+    font-family: 'Product Sans Black Regular';
+}
+.p-form-list-input {
+    font-size: 15px;
+    height: 45px;
+    border: 1px solid #4E598C;
+    border-radius: 7px;
+    padding-left: 1rem;
+}
+.p-form-list-subtxt {
+    color: #817E9E;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+.p-buttons {
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+.p-buttons-btn {
+    border-radius: 8px;
+    height: 40px;
+    width: 180px;
+    font-family: 'Product Sans Medium Regular';
+    font-size: 15px;
+}
+.p-buttons-btn1 {
+    background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
+    color: #fff;
+    border: 1px solid #F2C94A;
+}
+.p-buttons-btn2 {
+    background: #fff;
+    color: #4E598C;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+.p-buttons-btn2:hover {
+    border: 1px solid #4E598C;
+}
+.p-compulsory {
+    color: #EB5757;
+}
+.p-card {
+    gap: 1.5rem
+}
+.p-ccn {
+    width: 65%;
+}
+.p-exp {
+    width: 25%;
+}
+.p-cvv {
+    width: 15%
+}
+.p-confirm-sec {
+    box-shadow: 0px 10px 15px rgb(33 30 67 / 8%);
+    border-radius: 10px;
+}
+.p-confirm {
+    background: #2F80ED;
+    color: #fff;
+    font-family: 'Product Sans Bold';
+    letter-spacing: 0.5px;
+    padding: 1rem 4rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.p-ngn {
+    width: 22px;
+    margin-right: 10px;
+}
+.p-item {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    background: #fff;
+}
+.p-item-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 4rem;
+    color: #4E598C;
+    font-weight: 600;
+}
+.p-item-list-2 {
+    color: #000;
+}
+hr {
+    margin: 2rem 2rem;
+}
+.p-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 3rem;
+    padding: 10px 1rem;
+    color: #4E598C;
+    font-weight: 700;
+    border: 1px solid #817E9E;
+    border-radius: 4px;
+}
+.p-total > span:nth-child(1) {
+    color: #817E9E;
+    font-weight: normal;
+}
+.p-complete {
+    box-shadow: 0px 6px 10px rgb(33 30 67 / 8%);
+    border-radius: 10px;
+    padding: 4rem 7rem;
+    max-width: 580px;
+    margin: auto;
+    background: #fff;
+}
+.p-complete-tick {
+    background: #fff;
+    box-shadow: 0px 6px 10px rgb(33 30 67 / 8%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-complete-tick img {
+    width: 55%;
+}
+.p-complete-ttl {
+    color: #4E598C;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-align: left;
+    margin: 5px 0 1rem;
+    font-size: 1.7rem;
+}
+.p-complete-txt {
+    color: #4F4F4F;
+    font-size: 15px;
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+    padding-top: 5px;
+}
+.p-complete-link {
+    text-decoration: underline !important;
+    font-size: 15px;
+    color: #F2994A !important;
+    cursor: pointer;
+}
+.p-exp-input-sec {
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+.p-exp-input {
+    width: 45%;
+    border-color: transparent;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.p-exp-input-slash {
+    width: 10%;
+    font-size: 24px;
+    color: grey;
+    transform: rotate(-8deg);
+}
