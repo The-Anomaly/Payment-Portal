@@ -223,13 +223,6 @@ const Portal = () => {
                   <label htmlFor="month" className="p-form-list-label">
                     Expiry <span className="p-compulsory">*</span>
                   </label>
-                  {/* <input
-                    className="p-form-list-input"
-                    type="month"
-                    name="expiry"
-                    placeholder="-- / --"
-                    required
-                  /> */}
                     <div className="p-form-list-input p-exp-input-sec">
                         <input autoComplete="off" className="p-exp-input" id="month" maxLength={2} pattern="[0-9]*" inputMode="numeric" placeholder="MM" type="text" data-pattern-validate />
                         <span className="p-exp-input-slash">/</span>
